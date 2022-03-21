@@ -1,5 +1,12 @@
-# My Website
+# Usage
 
-Status:
+You can fully configur this from [config.js](config.js) file. Steps for configuring is given below! You can edit the file according to you needs.
 
- [![Netlify Status](https://api.netlify.com/api/v1/badges/ca95efc6-d97c-406f-8a82-b409b6ed5a4d/deploy-status)](https://app.netlify.com/sites/arun007coder/deploys)
+```json
+const Config = {
+  username: "Harry260", // Required if filename is not full url
+  repo: "Harry260", // Uses 'username' if not specified
+  filename: "README.md", // Uses 'README.md' if not specified
+  branch: "main"  // Uses 'main' if not specified
+};
+```
